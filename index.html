@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>David Moses Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<video class="video-bg" autoplay muted >
+			<source src="portimg/welcome.mp4" type="video/mp4">
+		</video>
+		<nav class="nav1">
+			<h2 class="logo">portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a></a></li>
+				<li><a href="skills.html">skills</a></li>
+				<li><a href="contacts.html">contact Me</a></li>
+			</ul>
+			<a href="chart.html" class="btn">Projects</a>
+
+		</nav>
+		<div class="content">
+			<section>
+				<h4>Hello, my name is</h4>
+				<h1>David<span>Moses</span></h1>
+				<h3>And</h3></section>
+				</div>
+				<section id="newsletter">
+					<div class="newsletter">
+					  <form>
+						<input type="email" name="email" id="email" placeholder="Enter Your Email">
+						<input type="submit" name="submit" value=" lets start">
+						<script>const aboutButton = document.getElementById('start');
+const aboutSection = document.getElementById('start');
+
+aboutButton.addEventListener('click', () => {
+  aboutSection.scrollIntoView({ behavior: 'smooth' });
+});
+</script>
+
+					</form>
+					</div>
+			</section>
+	</div>
+			<section class="about">
+				<div class="main">
+					<img class="image-container" src="portimg/profile2.jpg">
+					<div class="about-text">
+						<h2>About<span> Me</span></h2>
+						<h5><span>Developer</span>, Designer &<span>Software Engineer</span></h5>
+						<P>
+							I'm a passionate and innovative web developer with a proven track record of creating engaging, user-friendly websites that meet the needs of clients across a diverse range of industries. With a keen eye for detail and a love for clean, efficient code, I pride myself on delivering projects that exceed expectations.
+
+My expertise lies in a variety of areas, including front-end development, back-end development, and web design. I'm proficient in HTML, CSS, JavaScript, Python and several other programming languages and frameworks, and I stay up-to-date with the latest trends and best practices in the field.
+
+Whether you need a simple website to showcase your brand or a complex, data-driven application, I'm here to help. I'm dedicated to creating websites that not only look great but also function seamlessly, providing a seamless user experience and helping you achieve your business goals.
+
+When I'm not busy coding, you can find me experimenting with new technologies, attending industry conferences, and collaborating with other developers to stay ahead of the curve.
+
+Let's work together to bring your vision to life!
+						</P>
+						<button class="btn" type="button">Let's Talk</button>
+					</div>
+				</div>
+			</section>
+			
+	</div>
+	<footer>
+		<p>&copy; 2023 young and positive cbo</p>
+		<p>youngandpositive2022@gmail.com</p>
+	</footer>
+
+	<script >
+		setTimeout(function() {
+        window.scrollTo({
+            top: document.querySelector('.about').offsetTop,
+            behavior: 'smooth'
+        });
+    }, 5000);
+	</script>
+</body>
+</html>
