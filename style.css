@@ -290,41 +290,41 @@ input[type=submit]:hover {
 }
 
 .tech-stack#1 {
-  background: url("portimg/html1.png") no-repeat center center;
+  background: url("html1.png") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#2 {
-  background: url("portimg/CSS.png") no-repeat center center;
+  background: url("CSS.png") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#3 {
-  background: url("portimg/javascript.jpg") no-repeat center center;
+  background: url("javascript.jpg") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#4 {
-  background: url("portimg/React.png") 
+  background: url("React.png") 
   no-repeat center center;
   background-size: cover;
 }
 .tech-stack#5 {
-  background: url("portimg/node.jpg") 
+  background: url("node.jpg") 
   no-repeat center center;
   background-size: cover;
 }
 .tech-stack#6 {
-  background: url("portimg/python.png") no-repeat center center;
+  background: url("python.png") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#7 {
-  background: url("portimg/django.png") no-repeat center center;
+  background: url("django.png") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#8 {
-  background: url("portimg/C.png") no-repeat center center;
+  background: url("C.png") no-repeat center center;
   background-size: cover;
 }
 .tech-stack#9 {
-  background: url("portimg/mySQL.png") no-repeat center center;
+  background: url("mySQL.png") no-repeat center center;
   background-size: cover;
 }
 
