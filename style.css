@@ -289,15 +289,15 @@ input[type=submit]:hover {
   color: #f00;
 }
 
-.tech-stack#1 {
+.tech-stack 1 {
   background: url("html1.png") no-repeat center center;
   background-size: cover;
 }
-.tech-stack#2 {
+.tech-stack 2 {
   background: url("CSS.png") no-repeat center center;
   background-size: cover;
 }
-.tech-stack#3 {
+.tech-stack 3 {
   background: url("javascript.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -326,6 +326,23 @@ input[type=submit]:hover {
 .tech-stack#9 {
   background: url("mySQL.png") no-repeat center center;
   background-size: cover;
+}
+@media (max-aspect-ratio: 16/9) {
+  /* Styles to apply to devices with a maximum aspect ratio of 16:9 or less */
+  .wide-screen {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  /* Styles to apply to devices with a minimum aspect ratio of 16:9 or greater */
+  .narrow-screen {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 
